@@ -1,0 +1,33 @@
+<HTML>
+<HEAD>
+    <TITLE>Test Input</TITLE>
+    <link rel="stylesheet" href="style.css">
+    <SCRIPT src="myscript.js" LANGUAGE="JavaScript"></SCRIPT>
+</HEAD>
+<BODY>
+    <FORM NAME="calculatorForm" ACTION="" METHOD="GET">Put numbers here: <BR>
+        <INPUT TYPE="number" id="inputboxmat1" ><P>
+        <input type="number" id="inputboxmat2"><br>
+        <input type="radio" name="cal" id="adding"><lablel for="adding">Add</lablel><br>
+        <input type="radio" name="cal" id="subtraction"><label for="subtraction">Sub</label><br>
+        <input type="radio" name="cal" id="multiplication"><label for="multiplication">Multi</label><br>
+        <input type="radio" name="cal" id="division"><label for="division">Divis</label><br>
+
+        <INPUT TYPE="button" NAME="button" Value="Click" onClick="calculate()">
+    </FORM>
+    <div id="calcResult"></div>
+    <FORM NAME="palindromeForm" ACTION="" METHOD="GET">Enter something in the box: <BR>
+        
+            <INPUT TYPE="text" id="inputbox2" VALUE=""><P>
+            
+
+        <INPUT TYPE="button" NAME="button2" Value="Click" onClick="handlePalindromeForm(this.form)">
+            <div id="palResult"></div>
+    </FORM>
+    <div id="palindromeResult"></div>
+
+    
+
+
+</BODY>
+</HTML>
